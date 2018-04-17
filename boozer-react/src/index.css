@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #e0e0eb;
+  font-family: 'Gamja Flower', cursive;
+  font-size: 25px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #888;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    cursor: pointer;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+#drink-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+#cocktail-description {
+  order: 2;
+  width: 40%;
+  height: 40%;
+  margin-left: auto;
+  background-color: lightblue;
+  cursor: pointer;
+  border-radius: 10%;
+}
+
+#add-cocktail {
+  order: 1;
+  width: 40%;
+  height: 40%;
+  margin-left: auto;
+  background-color: #ffb366;
+  border-radius: 10%;
+}
+
+#title {
+  margin-left: 10%;
+}
+
+#search-bar {
+  margin-left: 15%;
+}
